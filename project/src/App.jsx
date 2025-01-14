@@ -1,13 +1,16 @@
 import './App.css'
-import { FaBeer } from 'react-icons/fa';
+import { Clock, Timer } from './components'
 
 function App() {
 
 
   return (
-    <>
-      <h1 className='text-2xl text-gray-100'>New Project 🍺 </h1>
-    </>
+    <div className=' md:h-screen flex items-center justify-center '>
+      <div className='grid gap-4 grid-cols-1 md:grid-cols-2 '>
+        <Clock/>
+        {/* <Timer/> */}
+      </div>
+    </div>
   )
 }
 
